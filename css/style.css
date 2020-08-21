@@ -53,7 +53,15 @@ table {
 	border-spacing: 0;
 }
 
+/*
+	========================================
+	Misc
+	========================================
+*/
 
+.flex {
+	display: flex;
+}
 
 /*
 	========================================
@@ -70,7 +78,9 @@ nav
   border: solid 1px #E2E2E2;
   font-size:14.25px;
   font-family: Arial, Helvetica, sans-serif;
-
+    position: fixed;
+    width: 98%;
+		top: 0;
 }
 
 .left-nav {
@@ -105,6 +115,9 @@ button {
 	========================================
 */
 
+h1 {
+	margin-top: 6%
+}
 
 header > *{
 	display:flex;
@@ -126,6 +139,17 @@ header > *{
 }
 
 figcaption {
-	width: 700px;
-	margin:0 15%;
+	width: 60%;
+	margin:0 32% 0 22%;
+}
+
+.byline {
+	flex-direction: column;
+	margin: 1% 30%;
+
+}
+
+.date-share {
+	justify-content: space-between;
+	align-items: baseline;
 }
