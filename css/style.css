@@ -179,3 +179,21 @@ article{
 	font-weight: 500;
 	color: #333333;
 }
+
+
+.article-pict{
+	width: 40%;
+	align-self: center;
+
+}
+
+.test{
+	display: flex;
+	
+	
+}
+iframe{
+	width: 600px;
+	height: 320px;
+	
+}
