@@ -141,16 +141,24 @@ figcaption {
 }
 
 .byline {
+	display: flex;
 	flex-direction: column;
 	margin: 1% 30%;
 
 }
 
-.date-share {
-	justify-content: space-between;
-	align-items: baseline;
+.share-icons{
+	display: flex;
+	align-items: flex-end;
 }
 
+
+
+/*
+	========================================
+	Main
+	========================================
+*/
 
 .flex {
 	display: flex;
@@ -160,7 +168,14 @@ figcaption {
 }
 
 .flex > p {
-	width: 50%;
+	width: 40%;
+	margin-bottom: 14px;
 }
 
-
+article{
+	font-size: 20px;
+	line-height: 30px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 500;
+	color: #333333;
+}
