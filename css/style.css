@@ -59,9 +59,6 @@ table {
 	========================================
 */
 
-.flex {
-	display: flex;
-}
 
 /*
 	========================================
@@ -153,3 +150,17 @@ figcaption {
 	justify-content: space-between;
 	align-items: baseline;
 }
+
+
+.flex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.flex > p {
+	width: 50%;
+}
+
+
