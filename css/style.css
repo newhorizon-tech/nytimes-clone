@@ -1,0 +1,40 @@
+body {
+  margin:0;
+}
+
+/* Navigation Bar */
+.navbar
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0 1% 0 1%;
+  border: solid 1px #E2E2E2;
+  font-size:14.25px;
+
+}
+
+.nav-heading {
+  font-family: helvetica;
+  font-size: 0.9em;
+}
+
+.left-nav {
+  width: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+button {
+  background-color: rgb(86, 123, 149);
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 3px;
+  line-height: 11px;
+  padding: 9px;
+}
