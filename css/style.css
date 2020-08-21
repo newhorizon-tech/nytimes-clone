@@ -197,3 +197,9 @@ iframe{
 	height: 320px;
 	
 }
+.second-article  figcaption{
+	width: 60%;
+	margin: 0 54% 0 22%;
+	font-size: 15px;
+	line-height: 20px;
+}
