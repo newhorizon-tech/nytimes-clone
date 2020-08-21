@@ -98,3 +98,7 @@ button {
 .space-cosmos :hover{
   text-decoration-line: underline;
 }
+
+img{
+  display: none;
+}
