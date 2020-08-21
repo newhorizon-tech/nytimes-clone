@@ -61,38 +61,40 @@ table {
 	Navigation Bar
 	========================================
 */
-.navbar
+nav
 {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  padding: 0 1% 0 1%;
+  padding: 1px 1% 1px 1%;
   border: solid 1px #E2E2E2;
   font-size:14.25px;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
-
-.nav-heading {
-  font-family: helvetica;
-  font-size: 0.9em;
-}
-
+  
 .left-nav {
-  width: 16%;
+  width: 14%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 
 }
-
 button {
-  background-color: rgb(86, 123, 149);
+  background-color: #326891;
+  border: 0 solid #E2E2E2;
   color: white;
-  font-size: 11px;
   font-weight: 700;
   border-radius: 3px;
-  line-height: 11px;
   padding: 9px;
+}
+
+.space-cosmos{
+  color: #000;
+  text-decoration-line: none;
+  font-weight: 900;
+}
+.space-cosmos :hover{
+  text-decoration-line: underline;
 }
