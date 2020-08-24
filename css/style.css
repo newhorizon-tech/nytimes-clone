@@ -133,7 +133,7 @@ header > *{
 	/* align-self: center; */
 }
 
-.small-text {
+.image-credit {
 	color:#888;
 	font-size: 80%;
 }
@@ -145,7 +145,8 @@ figcaption {
 
 .byline {
 	flex-direction: column;
-	margin: 3% 30%;
+	width: 43%;
+	margin: 3% 28.5%;
 
 }
 .author {
@@ -154,10 +155,11 @@ figcaption {
 
 }
 
-.share-icons{
+.share-line{
 	align-items: baseline;
 	justify-content: space-between;
 }
+
 
 
 
@@ -175,8 +177,9 @@ figcaption {
 }
 
 .flex > p {
-	width: 40%;
-	margin-bottom: 14px;
+	width: 43%;
+	margin-bottom: 1%;
+	align-self: center;
 }
 
 article{
@@ -189,24 +192,38 @@ article{
 
 
 .article-pict{
-	width: 40%;
-	align-self: center;
-
+	width: 51%;
 }
 
-.test{
-	display: flex;
-
-
-}
 iframe{
 	width: 600px;
 	height: 320px;
 
 }
 .second-article  figcaption{
-	width: 60%;
-	margin: 0 54% 0 22%;
+	width: 84%;
+	margin: 2% 15% 4% 0%;
 	font-size: 15px;
 	line-height: 20px;
+	text-align: left;
+}
+
+.subscribe-prompt{
+	text-align: center;
+	font-weight: 600;
+	line-height: 1.2rem;
+	font-size:0.9rem;
+}
+.subscribe-prompt a:link{
+	text-decoration: none;
+}
+
+
+.third-article figcaption{
+	width: 51%;
+	margin: 1% 0 0 0;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: left;
+
 }
