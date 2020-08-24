@@ -59,6 +59,9 @@ table {
 	========================================
 */
 
+.gen-flex {
+display:flex;
+}
 
 /*
 	========================================
@@ -141,15 +144,19 @@ figcaption {
 }
 
 .byline {
-	display: flex;
 	flex-direction: column;
-	margin: 1% 30%;
+	margin: 3% 30%;
+
+}
+.author {
+	font-weight: bold;
+	margin-bottom: 1%;
 
 }
 
 .share-icons{
-	display: flex;
-	align-items: flex-end;
+	align-items: baseline;
+	justify-content: space-between;
 }
 
 
@@ -164,7 +171,7 @@ figcaption {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	
+
 }
 
 .flex > p {
@@ -189,13 +196,13 @@ article{
 
 .test{
 	display: flex;
-	
-	
+
+
 }
 iframe{
 	width: 600px;
 	height: 320px;
-	
+
 }
 .second-article  figcaption{
 	width: 60%;
