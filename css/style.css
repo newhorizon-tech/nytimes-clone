@@ -233,3 +233,61 @@ iframe{
 	Aside-Editors's Picks
 	========================================
 */
+/* aside{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	float: right;
+	background-color: aqua;
+	position: absolute;
+	clear: both;
+	
+}
+
+.aside-pictures  img{ 
+	width: 10%;
+} */
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 40% 60%;
+	width: 210px;
+	grid-gap: 5%;
+	place-items: center;
+	
+	
+	
+}
+.aside-img img{
+	width: 100%;
+	
+}
+
+.aside-text a{
+	color: #000;
+	text-decoration-line: none;
+	font-size: 0.95rem;
+	font-weight: 500;
+	
+}
+
+
+/* change laterrrrrrrrrrrr*/
+aside{
+	float: right;
+	
+	clear: both;
+	position: absolute;
+	right:5%;
+	top: 225%;
+	z-index: -1;
+	
+}
+aside > p{
+	margin-bottom: 15px;
+	font-weight: 600;
+}
+.second-article{
+	clear: both;
+}
