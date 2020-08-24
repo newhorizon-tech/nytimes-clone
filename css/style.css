@@ -233,21 +233,6 @@ iframe{
 	Aside-Editors's Picks
 	========================================
 */
-/* aside{
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	float: right;
-	background-color: aqua;
-	position: absolute;
-	clear: both;
-	
-}
-
-.aside-pictures  img{ 
-	width: 10%;
-} */
 
 .grid-container{
 	display: grid;
@@ -255,13 +240,13 @@ iframe{
 	width: 210px;
 	grid-gap: 5%;
 	place-items: center;
-	
-	
-	
+
+
+
 }
 .aside-img img{
 	width: 100%;
-	
+
 }
 
 .aside-text a{
@@ -269,20 +254,20 @@ iframe{
 	text-decoration-line: none;
 	font-size: 0.95rem;
 	font-weight: 500;
-	
+
 }
 
 
 /* change laterrrrrrrrrrrr*/
 aside{
 	float: right;
-	
+
 	clear: both;
 	position: absolute;
 	right:5%;
 	top: 225%;
 	z-index: -1;
-	
+
 }
 aside > p{
 	margin-bottom: 15px;
@@ -290,4 +275,51 @@ aside > p{
 }
 .second-article{
 	clear: both;
+}
+
+/*
+	========================================
+	Inflation Grid
+	========================================
+*/
+
+.inflation {
+	margin: 3% 25%;
+
+}
+.inflation h3 {
+	font-size:1.25rem;
+	margin:0;
+}
+
+.subtitle-text {
+
+	font-size: 0.9rem;
+	color: #666666;
+}
+
+.inflation-grid {
+	display:grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap:1%;
+
+}
+
+.inf-element {
+	display:grid;
+	grid-template-rows: 50% 50%;
+	grid-row-gap: 2%;
+}
+.inflation-text {
+	font-size: 0.875rem;
+
+}
+
+.inflation-img img{
+	max-height: 100%;
+}
+
+.inf-title{
+	font-weight: bold;
+	letter-spacing: .05em;
 }
