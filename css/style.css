@@ -211,18 +211,20 @@ article{
 .article-pict{
 	width: 51%;
 }
+.article-fig
+{
+	font-size: 15px;
+	line-height: 20px;
+	text-align: left;
+	width: 51%;
+	margin: 0.8%;
+
+}
 
 iframe{
 	width: 600px;
 	height: 320px;
 
-}
-.second-article  figcaption{
-	width: 84%;
-	margin: 2% 15% 4% 0%;
-	font-size: 15px;
-	line-height: 20px;
-	text-align: left;
 }
 
 .subscribe-prompt{
