@@ -445,6 +445,15 @@ h2 {
   padding: 2% 0% 4% 0%
 }
 
+.img-head, .popular li {
+     cursor:pointer;
+}
+.img-title:hover,.popular li:hover {
+		color: rgb(99, 97, 98);
+}
+.img-date:hover{
+	cursor: default;
+}
 /*
 	========================================
 	Footer Menu
