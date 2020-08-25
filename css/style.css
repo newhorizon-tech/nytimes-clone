@@ -380,10 +380,12 @@ aside > p{
 */
 .more-articles
 {
+	max-width: 1170px;
 	width: 98%;
 	display: grid;
 	grid-template-columns: 70% 30%;
 	grid-gap:1%;
+	margin: 0 auto;
 }
 
 h2 {
