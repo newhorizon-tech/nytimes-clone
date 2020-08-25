@@ -507,7 +507,7 @@ h2 {
 
 .bottom-footer{
 	width: 80%;
-	margin: 0 auto 10% auto;
+	margin: 0 auto 7% auto;
 	justify-content: space-around;
 	font-size: 12.5px;
 	line-height: 11px;
@@ -522,4 +522,25 @@ h2 {
 .bottom-footer a:hover{
 	color:gray;
 	text-decoration: underline;
+}
+
+.foot-navbar
+{
+	cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding: 14px 1%;
+  border-top: 1px solid black;
+  font-size:14.25px;
+  font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    width: 100%;
+		bottom: 0;
+
+}
+
+.right-bottom-nav {
+	align-items: center;
 }
