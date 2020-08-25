@@ -143,6 +143,7 @@ h1 {
 
 .img-header {
 	width:70%;
+
 	color: #666;
 	font-size:15px;
 	margin-bottom: 4px;
@@ -454,7 +455,7 @@ h2 {
 	width: 98%;
 	border-top:1px solid #9a9a9a;
 	padding-top: 10px;
-	
+
 }
 .footer-line{
 	display: flex;
@@ -485,7 +486,7 @@ h2 {
 }
 .footer-icon li a{
 	font-weight: 700;
-	font-size: 17px;	
+	font-size: 17px;
 }
 
 .language{
@@ -496,4 +497,29 @@ h2 {
 .footer-vertical-line{
 	border-left: 1px solid #9a9a99;
 	padding-left: 12px;
+}
+
+/*
+	========================================
+	Bottom Footer
+	========================================
+*/
+
+.bottom-footer{
+	width: 80%;
+	margin: 0 auto 10% auto;
+	justify-content: space-around;
+	font-size: 12.5px;
+	line-height: 11px;
+	font-weight: 400;
+}
+
+.bottom-footer a{
+	color:gray;
+	text-decoration: none;
+}
+
+.bottom-footer a:hover{
+	color:gray;
+	text-decoration: underline;
 }
