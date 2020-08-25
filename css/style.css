@@ -139,7 +139,7 @@ h1 {
 	display:flex;
 	flex-direction: column;
 	align-items: center;
-} 
+}
 
 .img-header {
 	width:70%;
@@ -349,7 +349,7 @@ aside > p{
 .read-comment{
 	justify-content: space-between;
 	width: 98%;
-	
+
 }
 .read-comment-btn{
 	justify-content: space-between;
@@ -357,6 +357,7 @@ aside > p{
 }
 .article-end{
 	width: 43%;
+	margin-bottom: 6%;
 }
 .article-end-text{
 	font-size: 12px;
@@ -370,4 +371,71 @@ aside > p{
 }
 .article-end a:hover{
 	text-decoration: none;
+}
+
+/*
+	========================================
+	More Articles
+	========================================
+*/
+.more-articles
+{
+	width: 98%;
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-gap:1%;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	margin: 15px 0;
+}
+.space, .popular {
+	margin: 0 0 0 6%;
+	border-top: 1px solid #000000;
+	border-width: 100%;
+	padding: 0;
+}
+
+.img-head {
+	display:grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap:5% 2%;
+}
+
+
+.img-head figure img {
+	width: 100%;
+	padding: 0 auto;
+}
+
+.img-head figure figcaption {
+	width:100%;
+	margin:0;
+	text-align: right;
+}
+
+.img-title {
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 500;
+	margin-top: 3%;
+	margin-bottom:1%;
+}
+
+.img-date {
+	font-size:12px;
+	line-height: 20px;
+	color:#999999;
+	font-weight: 500;
+}
+
+.popular li {
+	font-size: 19px;
+	line-height: 23px;
+	font-weight: 500;
+ 	border-top: 1px solid #E2E2E2;
+  padding: 2% 0% 4% 0%
 }
