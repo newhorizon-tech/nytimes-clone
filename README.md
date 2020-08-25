@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Custom Video Player - Youtube Replica (basic-videoplayer)
+# New York Times Clone (nytimes-clone)
 
 A project to replicate elements of the New York Times article
 
