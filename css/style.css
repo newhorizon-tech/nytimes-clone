@@ -340,3 +340,34 @@ aside > p{
 	letter-spacing: .05em;
 }
 
+/*
+	========================================
+	Article end text
+	========================================
+*/
+
+.read-comment{
+	justify-content: space-between;
+	width: 98%;
+	
+}
+.read-comment-btn{
+	justify-content: space-between;
+	padding: 0px 60px 0px 60px;
+}
+.article-end{
+	width: 43%;
+}
+.article-end-text{
+	font-size: 12px;
+	line-height: 20px;
+	margin: 10px 0 20px 0;
+	color: #888;
+
+}
+.article-end-text a{
+	color: #888
+}
+.article-end a:hover{
+	text-decoration: none;
+}
