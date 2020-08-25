@@ -380,7 +380,7 @@ aside > p{
 */
 .more-articles
 {
-	max-width: 1170px;
+	max-width: 1300px;
 	width: 98%;
 	display: grid;
 	grid-template-columns: 70% 30%;
@@ -449,11 +449,12 @@ h2 {
 */
 
 .footer-menu{
-	max-width: 1170px;
-	margin: 0 auto;
+	max-width: 1300px;
+	margin: 12px auto 0 auto;
 	width: 98%;
-	display: grid;
-	grid-template-row: 10% 90%
+	border-top:1px solid #9a9a9a;
+	padding-top: 10px;
+	
 }
 .footer-line{
 	display: flex;
@@ -467,4 +468,32 @@ h2 {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(6,1fr);
+	line-height: 25px;
+}
+
+.footer-links div a{
+	text-decoration-line: none;
+	color:#333333;
+}
+.footer-links div a:hover{
+	text-decoration-line: underline;
+}
+
+.footer-menu a {
+	text-decoration-line: none;
+	color: #326891;
+}
+.footer-icon li a{
+	font-weight: 700;
+	font-size: 17px;	
+}
+
+.language{
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+.footer-vertical-line{
+	border-left: 1px solid #9a9a99;
+	padding-left: 12px;
 }
