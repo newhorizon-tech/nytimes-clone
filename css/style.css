@@ -441,3 +441,30 @@ h2 {
  	border-top: 1px solid #E2E2E2;
   padding: 2% 0% 4% 0%
 }
+
+/*
+	========================================
+	Footer Menu
+	========================================
+*/
+
+.footer-menu{
+	max-width: 1170px;
+	margin: 0 auto;
+	width: 98%;
+	display: grid;
+	grid-template-row: 10% 90%
+}
+.footer-line{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer-times-icon{
+	width: 67%;
+}
+.footer-links{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+}
