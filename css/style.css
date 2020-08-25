@@ -53,6 +53,20 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+/*
+	========================================
+	Main-side
+	========================================
+*/
+
+main{
+	max-width: 1170px;
+	margin: 0 auto;
+}
 /*
 	========================================
 	Misc
@@ -68,7 +82,9 @@ display:flex;
 	Navigation Bar
 	========================================
 */
-nav
+
+
+.nav-bar
 {
   display: flex;
   justify-content: space-between;
@@ -84,10 +100,10 @@ nav
 }
 
 .left-nav {
-  width: 14%;
+  /* width: 14%; */
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 
 }
 button {
@@ -119,11 +135,11 @@ h1 {
 	margin-top: 6%
 }
 
-header > *{
+ .top-section > *{
 	display:flex;
 	flex-direction: column;
 	align-items: center;
-}
+} 
 
 .img-header {
 	width:70%;
@@ -323,3 +339,4 @@ aside > p{
 	font-weight: bold;
 	letter-spacing: .05em;
 }
+
