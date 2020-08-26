@@ -3,6 +3,7 @@
 
 A project to replicate elements of the New York Times article
 
+![screenshot](./img/screenshot.png)
 
 ## Built With
 
@@ -11,7 +12,7 @@ A project to replicate elements of the New York Times article
 - Icons from Google Material UI
 
 
-![screenshot](./img/screenshot.png)
+
 
 ## Live Demo
 
