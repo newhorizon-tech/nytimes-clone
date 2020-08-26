@@ -1,6 +1,3 @@
-# nytimes-clone
-
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # New York Times Clone (nytimes-clone)
 
@@ -12,6 +9,9 @@ A project to replicate elements of the New York Times article
 - HTML5,
 - CSS3,
 - Icons from Google Material UI
+
+
+![screenshot](./img/screenshot.png)
 
 ## Live Demo
 
@@ -25,6 +25,7 @@ A project to replicate elements of the New York Times article
 
 - Github: [@ahmetbozaci ](https://github.com/ahmetbozaci )
 - Twitter: [@ahmtbozaci](https://twitter.com/ahmtbozaci)
+- Linkedin: [linkedin](https://linkedin.com/in/meron-ogbai-467414198/)
 
 👤 **Alaukik**
 
