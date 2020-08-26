@@ -132,7 +132,15 @@ button {
 */
 
 h1 {
-	margin-top: 6%
+	width: 600px;
+	margin: 6% auto 3% auto;
+	font-family: 'Domine';
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 46px;
+	color: #121212;
+	font-style: italic;
+
 }
 
  .top-section > *{
