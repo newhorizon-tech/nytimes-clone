@@ -100,10 +100,10 @@ display:flex;
 }
 
 .left-nav {
- 
+
   display: flex;
   align-items: center;
-  
+
 
 }
 button {
@@ -155,7 +155,7 @@ h1 {
 	color: #666;
 	font-size:15px;
 	margin-bottom: 4px;
-	
+
 }
 
 .image-credit {
@@ -316,6 +316,7 @@ aside > p{
 
 .inflation {
 	margin: 3% 25%;
+	zoom: 80%;
 
 }
 .inflation h3 {
@@ -355,7 +356,16 @@ aside > p{
 	font-weight: bold;
 	letter-spacing: .05em;
 }
-
+.small-line {
+	height: 1px;
+	width: 60px;
+	background-color: black;
+	margin: 10px 0 10px 0;
+}
+.inflation-footer{
+	margin-top: 40px;
+	font-size: 14px;
+}
 /*
 	========================================
 	Article end text
