@@ -455,18 +455,8 @@ iframe {
   color: #888;
 }
 
-<<<<<<< HEAD
-.bottom-footer a{
-	color:gray;
-	text-decoration: none;
-}
-
-.article-end a:hover{
-	text-decoration: none;
-=======
 .article-end-text a {
   color: #888;
->>>>>>> 188dfca095b26b2392accb30858f64edd7d9da65
 }
 
 /*
@@ -571,23 +561,11 @@ h2 {
   border-top: 1px solid #9a9a9a;
   padding-top: 10px;
 }
-<<<<<<< HEAD
-.bottom-footer a:hover{
-	color:gray;
-	text-decoration: underline;
-}
-.footer-links{
-	width: 100%;
-	display: grid;
-	grid-template-columns: repeat(6,1fr);
-	line-height: 25px;
-=======
 
 .footer-line {
   display: flex;
   justify-content: space-between;
   align-items: center;
->>>>>>> 188dfca095b26b2392accb30858f64edd7d9da65
 }
 
 .footer-times-icon {
@@ -649,10 +627,6 @@ h2 {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-
-
-=======
 .article-end a:hover {
   text-decoration: none;
 }
@@ -661,7 +635,6 @@ h2 {
   color: gray;
   text-decoration: underline;
 }
->>>>>>> 188dfca095b26b2392accb30858f64edd7d9da65
 
 .footer-links div a:hover {
   text-decoration-line: underline;
