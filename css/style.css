@@ -295,7 +295,6 @@ aside > p {
   font-weight: 600;
 }
 
-
 /*
   ========================================
   Main
@@ -303,7 +302,6 @@ aside > p {
 */
 
 article {
-  
   flex-direction: column;
   align-items: center;
   font-size: 20px;
@@ -319,18 +317,16 @@ article > p {
   align-self: center;
 }
 
-
 main h3 {
   align-self: flex-start;
   padding-left: 335px;
 }
 
-.article-pict1{
-  
+.article-pict1 {
   flex-direction: column;
   align-items: center;
-  
 }
+
 .article-pict {
   width: 51%;
 }
