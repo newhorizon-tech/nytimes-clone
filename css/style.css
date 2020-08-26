@@ -100,10 +100,10 @@ display:flex;
 }
 
 .left-nav {
-  /* width: 14%; */
+ 
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
+  
 
 }
 button {
@@ -155,7 +155,7 @@ h1 {
 	color: #666;
 	font-size:15px;
 	margin-bottom: 4px;
-	/* align-self: center; */
+	
 }
 
 .image-credit {
@@ -215,6 +215,10 @@ article{
 	color: #333333;
 }
 
+main h3{
+	align-self: flex-start;
+	padding-left: 335px;
+}
 
 .article-pict{
 	width: 51%;
@@ -317,6 +321,7 @@ aside > p{
 .inflation h3 {
 	font-size:1.25rem;
 	margin:0;
+	padding-left: 0;
 }
 
 .subtitle-text {
