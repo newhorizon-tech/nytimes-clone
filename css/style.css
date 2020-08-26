@@ -234,16 +234,25 @@ main h3{
 }
 
 iframe{
-	width: 600px;
+	width: 70%;
 	height: 320px;
 
 }
-
+.video{
+	width: 61%;
+	margin:20px 0 20px 0;
+}
+.video figcaption{
+	font-size:14px;
+	color: #333333;
+	line-height: 12px;
+	margin: 12px 10% 12px 0 ;
+}
 .subscribe-prompt{
 	text-align: center;
 	font-weight: 600;
 	line-height: 1.2rem;
-	font-size:0.9rem;
+	font-size:12px;
 }
 .subscribe-prompt a:link{
 	text-decoration: none;
