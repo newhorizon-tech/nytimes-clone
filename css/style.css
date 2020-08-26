@@ -404,6 +404,12 @@ aside > p{
 .article-end-text a{
 	color: #888
 }
+
+.bottom-footer a{
+	color:gray;
+	text-decoration: none;
+}
+
 .article-end a:hover{
 	text-decoration: none;
 }
@@ -509,6 +515,10 @@ h2 {
 .footer-times-icon{
 	width: 67%;
 }
+.bottom-footer a:hover{
+	color:gray;
+	text-decoration: underline;
+}
 .footer-links{
 	width: 100%;
 	display: grid;
@@ -559,15 +569,8 @@ h2 {
 
 }
 
-.bottom-footer a{
-	color:gray;
-	text-decoration: none;
-}
 
-.bottom-footer a:hover{
-	color:gray;
-	text-decoration: underline;
-}
+
 
 .foot-navbar
 {
