@@ -37,7 +37,7 @@ A project to replicate elements of the New York Times article
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the (https://github.com/newhorizon-tech/nytimes-clone/issues).
 
 ## Show your support
 
