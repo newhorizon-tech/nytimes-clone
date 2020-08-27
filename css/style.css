@@ -156,6 +156,26 @@ main {
   display: flex;
 }
 
+.flex-center {
+  align-items: center;
+}
+
+.gen-grid {
+  display: grid;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.fontw-500 {
+  font-weight: 500;
+}
+
+.fontw-700 {
+  font-weight: 700;
+}
+
 /*
   ========================================
   Navigation Bar
@@ -164,7 +184,6 @@ main {
 
 .nav-bar {
   justify-content: space-between;
-  align-items: center;
   background-color: white;
   padding: 1px 1%;
   border: solid 1px #e2e2e2;
@@ -175,15 +194,10 @@ main {
   top: 0;
 }
 
-.left-nav {
-  align-items: center;
-}
-
 button {
   background-color: #326891;
   border: 0 solid #e2e2e2;
   color: white;
-  font-weight: 700;
   border-radius: 3px;
   padding: 9px;
 }
@@ -263,15 +277,10 @@ figcaption {
 */
 
 .grid-container {
-  display: grid;
   grid-template-columns: 40% 60%;
   width: 210px;
   grid-gap: 5%;
   place-items: center;
-}
-
-.aside-img img {
-  width: 100%;
 }
 
 .aside-text a {
@@ -303,11 +312,9 @@ aside > p {
 
 article {
   flex-direction: column;
-  align-items: center;
   font-size: 20px;
   line-height: 30px;
   font-family: 'Times New Roman', Times, serif;
-  font-weight: 500;
   color: #333;
 }
 
@@ -324,7 +331,6 @@ main h3 {
 
 .article-pict1 {
   flex-direction: column;
-  align-items: center;
 }
 
 .article-pict {
@@ -345,7 +351,6 @@ iframe {
 }
 
 .video {
-  align-items: center;
   flex-direction: column;
   width: 61%;
   margin: 20px 0;
@@ -387,13 +392,11 @@ iframe {
 }
 
 .inflation-grid {
-  display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1%;
 }
 
 .inf-element {
-  display: grid;
   grid-template-rows: 50% 50%;
   grid-row-gap: 2%;
 }
@@ -463,7 +466,6 @@ iframe {
 .more-articles {
   max-width: 1300px;
   width: 98%;
-  display: grid;
   grid-template-columns: 70% 30%;
   grid-gap: 1%;
   margin: 0 auto;
@@ -484,7 +486,6 @@ h2 {
 }
 
 .img-head {
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5% 2%;
 }
@@ -497,6 +498,7 @@ h2 {
   width: 100%;
   margin: 0;
   text-align: right;
+  white-space: nowrap;
 }
 
 .img-title {
@@ -559,9 +561,7 @@ h2 {
 }
 
 .footer-line {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .footer-times-icon {
@@ -569,8 +569,6 @@ h2 {
 }
 
 .footer-links {
-  width: 100%;
-  display: grid;
   grid-template-columns: repeat(6, 1fr);
   line-height: 25px;
 }
@@ -638,19 +636,12 @@ h2 {
 
 .foot-navbar {
   cursor: pointer;
-  display: flex;
   justify-content: space-around;
-  align-items: center;
   background-color: white;
   padding: 14px 1%;
   border-top: 1px solid black;
   font-size: 14.25px;
   font-family: Arial, Helvetica, sans-serif;
   position: fixed;
-  width: 100%;
   bottom: 0;
-}
-
-.right-bottom-nav {
-  align-items: center;
 }
