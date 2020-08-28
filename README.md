@@ -5,13 +5,6 @@ A project to replicate elements of the New York Times article
 
 ![screenshot](./img/screenshot.png)
 
-## The project has
-
- - Navigation bar with a color gradient
- - Properly positioned background image
- - Product grid  
- - Footer
-
 ## Built With
 
 - HTML5,
